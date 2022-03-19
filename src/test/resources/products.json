@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1215,
+    "name": "Blue Shoes",
+    "featured": true
+  },
+  {
+    "id": 1209,
+    "name": "Denim Blue Jeans",
+    "featured": false
+  },
+  {
+    "id": 1205,
+    "name": "Basic Blue Jeans",
+    "featured": false
+  },
+  {
+    "id": 1198,
+    "name": "Anchor Bracelet",
+    "featured": true
+  },
+  {
+    "id": 1196,
+    "name": "Blue Tshirt",
+    "featured": true
+  }
+]

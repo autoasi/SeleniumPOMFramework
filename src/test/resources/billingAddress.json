@@ -1,0 +1,32 @@
+[
+  {
+    "firstName": "demous",
+    "lastName": "user",
+    "country": "United States (US)",
+    "addressLineOne": "San Francisco",
+    "city": "San Francisco",
+    "state": "California",
+    "postcode": "94188",
+    "email": "askmeus@gmail.com"
+  },
+  {
+    "firstName": "demouk",
+    "lastName": "user",
+    "country": "United Kingdom (UK)",
+    "addressLineOne": "Chelsea",
+    "city": "London",
+    "state": "",
+    "postcode": "MW4 5AB",
+    "email": "askmeuk@gmail.com"
+  },
+  {
+    "firstName": "demoin",
+    "lastName": "user",
+    "country": "India",
+    "addressLineOne": "Test",
+    "city": "Test",
+    "state": "Goa",
+    "postcode": "123456",
+    "email": "askmein@gmail.com"
+  }
+]
