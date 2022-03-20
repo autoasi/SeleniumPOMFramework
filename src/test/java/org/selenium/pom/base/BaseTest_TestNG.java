@@ -51,7 +51,7 @@ public class BaseTest_TestNG {
         //browser = System.getProperty("browser",browser); // this works for Maven command and testng.xml or JVM argument
         if(browser == null) browser = "CHROME"; // When running from IDE
 
-        //System.setProperty("allure.results.directory", "target/allure-results/report1");
+        //System.setProperty("allure.results.directory", "target/allure-results/report1"); 
 
         // Initialise the driver instance
         // Option 1: Using DriverManager class
