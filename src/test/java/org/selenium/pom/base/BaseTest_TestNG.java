@@ -49,8 +49,10 @@ public class BaseTest_TestNG {
     @BeforeMethod
     public synchronized void startDriver(@Optional String browser){
         //browser = System.getProperty("browser",browser); // this works for Maven command and testng.xml or JVM argument
-
         if(browser == null) browser = "CHROME"; // When running from IDE
+
+        //System.setProperty("allure.results.directory", "target/allure-results/report1");
+
         // Initialise the driver instance
         // Option 1: Using DriverManager class
         //setDriver(new DriverManager().initialiseDriver(browser));
@@ -59,6 +61,7 @@ public class BaseTest_TestNG {
         // Option 3: Using Abstract class
         //setDriverManager(DriverManagerFactoryAbstract.getManager(BrowserType.valueOf(browser)));
         //setDriver(getDriverManager().getDriver());
+
 
         System.out.println("TESTNG START - CURRENT THREAD: " + Thread.currentThread().getId() + ", " +
                 "DRIVER = " + getDriver());
